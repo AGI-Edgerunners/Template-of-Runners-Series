@@ -1,0 +1,7 @@
+[
+  {
+    "cite": "@misc{su2021nonautoregressive,\n      title={Non-Autoregressive Text Generation with Pre-trained Language Models}, \n      author={Yixuan Su and Deng Cai and Yan Wang and David Vandyke and Simon Baker and Piji Li and Nigel Collier},\n      year={2021},\n      eprint={2102.08220},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    "url": "https://arxiv.org/abs/2102.08220",
+    "code": "https://github.com/yxuansu/NAG-BERT"
+  }
+]

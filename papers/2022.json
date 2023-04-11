@@ -1,0 +1,12 @@
+[
+  {
+    "cite": "@misc{he2022diffusionbert,\n      title={DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models}, \n      author={Zhengfu He and Tianxiang Sun and Kuanning Wang and Xuanjing Huang and Xipeng Qiu},\n      year={2022},\n      eprint={2211.15029},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    "url": "https://arxiv.org/abs/2211.15029",
+    "code": "https://github.com/Hzfinfdu/Diffusion-BERT"
+  },
+  {
+    "cite": "@unknown{unknown,\nauthor={Lin, Zhenghao and Gong, Yeyun and Shen, Yelong and Wu, Tong and Fan, Zhihao and Lin, Chen and Chen, Weizhu and Duan, Nan},\nyear={2022},\nmonth={12},\npages={},\ntitle={GENIE: Large Scale Pre-training for Text Generation with Diffusion Model},\ndoi={10.48550/arXiv.2212.11685}\n}",
+    "url":"https://www.researchgate.net/publication/366527397_GENIE_Large_Scale_Pre-training_for_Text_Generation_with_Diffusion_Model",
+    "code": ""
+  }
+]
