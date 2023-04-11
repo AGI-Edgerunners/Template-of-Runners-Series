@@ -11,11 +11,13 @@ Runners-On-XXXX
 ```
 
 # Usage
-1. The folder papers saves all papers you collected, and these papers classified by year(or other rule).
+1. Write `config.json` file including your repo name and the description of it.
 
-2. Run ```python script.py``` to generate README.md automatically.
+2. The folder `papers` saves all papers you collected, and these papers classified by year(or other rule).
 
-3. Ignore the src/style.css, it doesn't work on github.
+3. Run ```python script.py``` to generate README.md automatically.
+
+4. Ignore the src/style.css, it doesn't work on github.
 
 # Format of writing the information of a paper to json file
 ```json
