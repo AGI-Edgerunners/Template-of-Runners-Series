@@ -1,4 +1,4 @@
-# project structue
+# project structure
 ```text
 Runners-On-XXXX
     |----papers
@@ -34,4 +34,4 @@ Runners-On-XXXX
 ```
 
 # Attention
-If you clone this repo and then build your paper list repo, remember delete .git/* before pushing.
+If you clone this repo and then build your paper list repo, remember to delete .git/* and reinitialize it before pushing.
