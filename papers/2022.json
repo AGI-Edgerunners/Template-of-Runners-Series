@@ -1,12 +1,7 @@
 [
   {
-    "cite": "@misc{he2022diffusionbert,\n      title={DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models}, \n      author={Zhengfu He and Tianxiang Sun and Kuanning Wang and Xuanjing Huang and Xipeng Qiu},\n      year={2022},\n      eprint={2211.15029},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
-    "url": "https://arxiv.org/abs/2211.15029",
-    "code": "https://github.com/Hzfinfdu/Diffusion-BERT"
-  },
-  {
-    "cite": "@unknown{unknown,\nauthor={Lin, Zhenghao and Gong, Yeyun and Shen, Yelong and Wu, Tong and Fan, Zhihao and Lin, Chen and Chen, Weizhu and Duan, Nan},\nyear={2022},\nmonth={12},\npages={},\ntitle={GENIE: Large Scale Pre-training for Text Generation with Diffusion Model},\ndoi={10.48550/arXiv.2212.11685}\n}",
-    "url":"https://www.researchgate.net/publication/366527397_GENIE_Large_Scale_Pre-training_for_Text_Generation_with_Diffusion_Model",
+    "cite": "@inproceedings{NEURIPS2022_9d560961,\n author = {Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and ichter, brian and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},\n pages = {24824--24837},\n publisher = {Curran Associates, Inc.},\n title = {Chain-of-Thought Prompting Elicits Reasoning in Large Language Models},\n url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf},\n volume = {35},\n year = {2022}\n}",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html",
     "code": ""
   }
 ]

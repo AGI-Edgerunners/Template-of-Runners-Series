@@ -33,32 +33,29 @@ def read_css(file: str) -> str:
 
 
 def parse_cite(cite_str: str):
-    pattern = '(?<=title={).*(?=})'
+    pattern = '(?<=(?<!book)title={).*(?=})|(?<=(?<!book)title = {).*(?=})'
     match = re.search(pattern, cite_str)
     title = match.group() if match else ''
 
-    pattern = '(?<=url={).*(?=})'
+    pattern = '(?<=url={).*(?=})|(?<=url = {).*(?=})'
     match = re.search(pattern, cite_str)
     url = match.group() if match else ''
 
-    pattern = '(?<=year={).*(?=})'
+    pattern = '(?<=eprint={)\d{4}.\d{2}|(?<=eprint = {)\d{4}.\d{2}'
     match = re.search(pattern, cite_str)
-    year = match.group() if match else ''
+    yy, mm, dd = (match.group()[:2], match.group()[2:4], match.group()[-2:]) if match else ('', '', '')
+    if match:
+        date = f'20{yy}.{mm}.{dd}'
+    else:
+        pattern = '(?<=year={).*(?=})|(?<=year = {).*(?=})'
+        match = re.search(pattern, cite_str)
+        year = match.group() if match else ''
 
-    pattern = '(?<=eprint={\d{2})\d{2}.\d{2}'
-    match = re.search(pattern, cite_str)
-    mm_dd = match.group() if match else ''
-
-    if year and mm_dd:
-        year += f'.{mm_dd}'
-
-    if year and not mm_dd:
-        pattern = '(?<=month={).*(?=})'
+        pattern = '(?<=month={).*(?=})|(?<=month = {).*(?=})'
         match = re.search(pattern, cite_str)
         mm = match.group() if match else ''
-        year += f'.{mm}' if mm else ''
-
-    return {'title': title, 'url': url, 'year': year}
+        date = f'{year}.{mm}' if mm else f'{year}'
+    return {'title': title, 'url': url, 'date': date}
 
 
 def init_with_css():
@@ -271,8 +268,8 @@ def init():
                     if not title:
                         warnings.warn("can not parse data: {}".format(data))
                         continue
-                    year = parsed.get('year', '')
-                    url = parsed.get('url') if parsed.get('url') else data.get('url')
+                    year = parsed.get('date', '')
+                    url = data.get('url') if data.get('url') else parsed.get('url')
                     code = data.get('code')
                     if url:
                         url_tag = f'[[paper]]({url})'

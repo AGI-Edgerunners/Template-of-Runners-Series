@@ -13,11 +13,9 @@ Runners-On-XXXX
 # Usage
 1. Write `config.json` file including your repo name and the description of it.
 
-2. The folder `papers` saves all papers you collected, and these papers classified by year(or other rule).
+2. The folder `papers` saves all papers you collected, and these papers classified by year(or other rules).
 
 3. Run ```python script.py``` to generate README.md automatically.
-
-4. Ignore the src/style.css, it doesn't work on github.
 
 # Format of writing the information of a paper to json file
 ```json
@@ -28,9 +26,9 @@ Runners-On-XXXX
     "code": "code address copied here"
   },
   {
-    "cite": "@misc{su2021nonautoregressive,\n      title={Non-Autoregressive Text Generation with Pre-trained Language Models}, \n      author={Yixuan Su and Deng Cai and Yan Wang and David Vandyke and Simon Baker and Piji Li and Nigel Collier},\n      year={2021},\n      eprint={2102.08220},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
-    "url": "https://arxiv.org/abs/2102.08220",
-    "code": "https://github.com/yxuansu/NAG-BERT"
+    "cite": "misc{wu2023visual,\n      title={Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models}, \n      author={Chenfei Wu and Shengming Yin and Weizhen Qi and Xiaodong Wang and Zecheng Tang and Nan Duan},\n      year={2023},\n      eprint={2303.04671},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV}\n}",
+    "url": "https://arxiv.org/abs/2303.04671",
+    "code": "https://github.com/microsoft/visual-chatgpt"
   }
 ]
 ```

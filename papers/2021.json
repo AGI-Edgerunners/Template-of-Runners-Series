@@ -1,7 +1,7 @@
 [
   {
-    "cite": "@misc{su2021nonautoregressive,\n      title={Non-Autoregressive Text Generation with Pre-trained Language Models}, \n      author={Yixuan Su and Deng Cai and Yan Wang and David Vandyke and Simon Baker and Piji Li and Nigel Collier},\n      year={2021},\n      eprint={2102.08220},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
-    "url": "https://arxiv.org/abs/2102.08220",
-    "code": "https://github.com/yxuansu/NAG-BERT"
+    "cite": "@misc{liu2021pretrain,\n      title={Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing}, \n      author={Pengfei Liu and Weizhe Yuan and Jinlan Fu and Zhengbao Jiang and Hiroaki Hayashi and Graham Neubig},\n      year={2021},\n      eprint={2107.13586},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    "url": "https://arxiv.org/abs/2107.13586",
+    "code": ""
   }
 ]

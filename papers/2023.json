@@ -1,17 +1,7 @@
 [
   {
-    "cite": "@inproceedings{\nma2023fuzzy,\ntitle={Fuzzy Alignments in Directed Acyclic Graph for Non-Autoregressive Machine Translation},\nauthor={Zhengrui Ma and Chenze Shao and Shangtong Gui and Min Zhang and Yang Feng},\nbooktitle={The Eleventh International Conference on Learning Representations },\nyear={2023},\nurl={https://openreview.net/forum?id=LSz-gQyd0zE}\n}",
-    "url": "",
-    "code": ""
-  },
-  {
-    "cite": "@misc{li2023narrowbert,\n      title={NarrowBERT: Accelerating Masked Language Model Pretraining and Inference}, \n      author={Haoxin Li and Phillip Keung and Daniel Cheng and Jungo Kasai and Noah A. Smith},\n      year={2023},\n      eprint={2301.04761},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
-    "url": "https://arxiv.org/abs/2301.04761",
-    "code": ""
-  },
-  {
-    "cite": "@misc{yang2023inference,\n      title={Inference with Reference: Lossless Acceleration of Large Language Models}, \n      author={Nan Yang and Tao Ge and Liang Wang and Binxing Jiao and Daxin Jiang and Linjun Yang and Rangan Majumder and Furu Wei},\n      year={2023},\n      eprint={2304.04487},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
-    "url": "https://arxiv.org/abs/2304.04487v1",
-    "code": ""
+    "cite": "misc{wu2023visual,\n      title={Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models}, \n      author={Chenfei Wu and Shengming Yin and Weizhen Qi and Xiaodong Wang and Zecheng Tang and Nan Duan},\n      year={2023},\n      eprint={2303.04671},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV}\n}",
+    "url": "https://arxiv.org/abs/2303.04671",
+    "code": "https://github.com/microsoft/visual-chatgpt"
   }
 ]
