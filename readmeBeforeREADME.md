@@ -5,8 +5,6 @@ Runners-On-XXXX
           |----2023.json
           |----2022.json
           |···
-    |----src
-          |----style.css
     |----script.py  
 ```
 
