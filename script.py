@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# @org: 辰风科技
 # @author: lyh
 # @fileName: script.py
 # @date: 2023/4/8 2:55
